@@ -7,7 +7,7 @@ namespace Stopwatch
     
     public partial class MainWindow : Window
     {
-        // create timer in separate thread
+        // Create timer in separate thread
         System.Timers.Timer timer = new System.Timers.Timer(); 
       
         public MainWindow()
@@ -28,7 +28,7 @@ namespace Stopwatch
         public void Timer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
         {
 
-            // using UiInvoke: access from a separate thread (Timer)
+            // Using UiInvoke: access from a separate thread (Timer)
             if (dots.IsVisible == true)
             {
                 if (s < 59)
