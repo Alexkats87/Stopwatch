@@ -13,6 +13,7 @@ namespace Stopwatch
         public MainWindow()
         {
             InitializeComponent();
+            // Hook up the Elapsed event for the timer
             timer.Elapsed += Timer_Elapsed;
             timer.Interval = 500;
         }
