@@ -213,7 +213,8 @@ namespace Stopwatch
                     }
 
                 }
-            }
+            } // test comment
+			// test comment 2
             if (sf == 100)
             {
                 Result_label.Background = Brushes.Red;
@@ -237,3 +238,7 @@ namespace Stopwatch
        
     }
 }
+
+// test comment
+
+
